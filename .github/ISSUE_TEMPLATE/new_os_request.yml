@@ -1,0 +1,49 @@
+name: New OS Request for VPS
+description: Request the addition of a new operating system for VPS services.
+title: "[Request]: "
+labels: ["enhancement", "vps"]
+type: feature_request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If you would like to request the addition of a new operating system for VPS services, please fill out this template as best as you can. If you're unsure about something, just leave it blank and we'll try to help.
+  - type: input
+    id: os_name
+    attributes:
+      label: Operating System Name
+      description: What is the name of the operating system you would like to see supported?
+      placeholder: ex. Ubuntu 24.04
+    validations:
+      required: true
+  - type: input
+    id: os_version
+    attributes:
+      label: Operating System Version
+      description: What is the version of the operating system you would like to see supported?
+      placeholder: ex. 24.04
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Website
+      description: What is the official website for this operating system?
+      placeholder: ex. https://ubuntu.com/
+  - type: textarea
+    id: why
+    attributes:
+      label: Why?
+      description: Why do you want this operating system to be supported? Please provide as much detail as possible.
+      placeholder: ex. "I want to use Ubuntu 24.04 because it has the latest features and improvements."
+    validations:
+      required: true
+      default: 0
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Terms of Service
+      description: By submitting this issue, you agree to follow our [Terms of Service](https://dash.stingerhost.eu/index.php?/page/vop/).
+      options:
+        - label: I agree to follow the Stingerhost Terms of Service
+          required: true

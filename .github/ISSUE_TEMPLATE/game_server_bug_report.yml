@@ -1,0 +1,101 @@
+name: Game Server Bug Report
+description: File a bug report for a game server service.
+title: "[Bug]: "
+labels: ["bug", "game servers"]
+type: issue
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If you found a bug or an issue in a game server service, please fill out this template as best as you can. If you're unsure about something, just leave it blank and we'll try to help.
+  - type: dropdown
+    id: service
+    attributes:
+      label: Service
+      description: Which service is experiencing the issue?
+      options:
+        - 'Minecraft Java'
+        - 'Minecraft Bedrock'
+        - 'Rust'
+        - 'Counter Strike 2'
+        - 'FiveM'
+        - 'SA:MP'
+        - 'Palworld'
+        - 'Enshrouded'
+        - 'The Forest'
+        - 'Team Fortress 2'
+  - type: input
+    id: service_name
+    attributes:
+      label: Service Name
+      description: What is the name of the service experiencing the issue?
+      placeholder: ex. My Minecraft Server
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Please describe what happened in as much detail as possible.
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+      default: 0
+  - type: dropdown
+    id: service_part
+    attributes:
+      label: What part of the service is experiencing the issue?
+      required: true
+      description: Which part of the service is experiencing the issue? (Select all that apply)
+      multiple: true
+      options:
+        - Console
+        - SFTP
+        - File Explorer
+        - Backups
+        - Databases
+        - Players Manager
+        - Startup Parameters
+        - Server Performance
+        - Other
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: Frequency
+      description: How often does this issue occur?
+      required: true
+      options:
+        - Always
+        - Often
+        - Sometimes
+        - Rarely
+        - Unable to reproduce
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      description: Which browser are you using? (If applicable)
+      required: false
+      options:
+        - Chrome
+        - Firefox
+        - Edge
+        - Safari
+        - Opera
+        - Other
+        - Not sure
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Terms of Service
+      description: By submitting this issue, you agree to follow our [Terms of Service](https://dash.stingerhost.eu/index.php?/page/vop/).
+      options:
+        - label: I agree to follow the Stingerhost Terms of Service
+          required: true
