@@ -1,4 +1,4 @@
-# Veřejná hlášení chyb a problémů služeb a zveřejněné plány Stingerhostu
+# Veřejná hlášení chyb a problémů služeb a zveřejněné plány StingerHostu
 
 V tomto repozitáři publikujeme naše plány pro naše hostingové služby. Vývoj a vylepšování našich existujících služeb a také plány pro implementaci nových služeb v blízké budoucnosti. Vše lze nalézt [v projektu veřejných nahlášených chyb a plánů pro Stingerhost](https://github.com/orgs/Stingerhost/projects/2 "Public Issues and Plans for StingerHost Projects") (anglicky).
 

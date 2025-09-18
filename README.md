@@ -1,4 +1,4 @@
-# Stingerhost public bug and issue reports and roadmap plans
+# StingerHost public bug and issue reports and roadmap plans
 
 In this repository, we publish some of our roadmap plans for our hosting services. Development and improvements of our existing services, and perhaps plans to add new services in the near future. Everything can be found in the [Public Issues and Plans for Stingerhost Project](https://github.com/orgs/Stingerhost/projects/2 "Public Issues and Plans for Stingerhost Project").
 
