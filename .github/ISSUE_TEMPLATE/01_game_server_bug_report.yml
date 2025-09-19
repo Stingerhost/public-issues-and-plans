@@ -2,7 +2,7 @@ name: Game Server Bug Report
 description: File a bug report for a game server service.
 title: "[Bug]: "
 labels: ["bug", "game servers"]
-type: issue
+#type: issue
 body:
   - type: markdown
     attributes:

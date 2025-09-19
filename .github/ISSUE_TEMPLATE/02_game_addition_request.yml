@@ -2,7 +2,7 @@ name: Add a New Game Server
 description: Request the addition of a new game server service.
 title: "[Request]: "
 labels: ["enhancement", "game servers"]
-type: feature_request
+#type: issue
 body:
   - type: markdown
     attributes:

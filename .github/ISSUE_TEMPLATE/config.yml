@@ -1,0 +1,11 @@
+#blank_issues_enabled: false
+contact_links:
+  - name: StingerHost GitHub Discussions
+    url: https://github.com/Stingerhost/public-issues-and-plans/discussions
+    about: GitHub Discussions for StingerHost.
+  - name: StingerHost Website
+    url: https://stingerhost.eu
+    about: StingerHost website.
+  - name: StingerHost Discord
+    url: https://discord.gg/QdCNNTrzww
+    about: Discord server for StingerHost.

@@ -2,7 +2,7 @@ name: New OS Request for VPS
 description: Request the addition of a new operating system for VPS services.
 title: "[Request]: "
 labels: ["enhancement", "vps"]
-type: feature_request
+#type: issue
 body:
   - type: markdown
     attributes:

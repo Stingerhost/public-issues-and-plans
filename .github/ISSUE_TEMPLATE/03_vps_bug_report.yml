@@ -2,7 +2,7 @@ name: VPS Bug Report
 description: File a bug report for a VPS service.
 title: "[Bug]: "
 labels: ["bug", "vps"]
-type: issue
+#type: issue
 body:
   - type: markdown
     attributes:
